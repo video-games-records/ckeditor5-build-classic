@@ -15,7 +15,6 @@ import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
-import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload.js';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent.js';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
@@ -39,10 +38,13 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 
+import InsertImage from './insert-image.js'
+
 class Editor extends ClassicEditor {}
 
 // Plugins to include in the build.
 Editor.builtinPlugins = [
+	// Official plugins
 	AutoImage,
 	Autoformat,
 	Autolink,
@@ -55,7 +57,6 @@ Editor.builtinPlugins = [
 	HorizontalLine,
 	Image,
 	ImageToolbar,
-	ImageUpload,
 	Indent,
 	Italic,
 	Link,
@@ -77,7 +78,9 @@ Editor.builtinPlugins = [
 	TextPartLanguage,
 	TextTransformation,
 	TodoList,
-	WordCount
+	WordCount,
+	// Custom plugins
+	InsertImage,
 ];
 
 export default Editor;
