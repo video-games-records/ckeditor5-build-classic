@@ -39,6 +39,7 @@ import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 
 import InsertImage from './insert-image.js'
+import SpecialCharactersEmoji from './emojis.js'
 
 class Editor extends ClassicEditor {}
 
@@ -81,6 +82,7 @@ Editor.builtinPlugins = [
 	WordCount,
 	// Custom plugins
 	InsertImage,
+	SpecialCharactersEmoji,
 ];
 
 export default Editor;
