@@ -85,4 +85,27 @@ Editor.builtinPlugins = [
 	SpecialCharactersEmoji,
 ];
 
+// Default config
+/*
+Editor.defaultConfig = {
+	toolbar: {
+		items: [
+			'bold',
+			'italic',
+			'strikethrough',
+			'|',
+			'bulletedList',
+			'numberedList',
+			'blockQuote',
+			'|',
+			'link',
+			'|',
+			'removeFormat',
+			'undo',
+			'redo',
+		]
+	},
+};
+*/
+
 export default Editor;
