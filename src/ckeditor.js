@@ -34,7 +34,7 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextPartLanguage from '@ckeditor/ckeditor5-language/src/textpartlanguage.js';
-import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
+// import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 
@@ -77,7 +77,7 @@ Editor.builtinPlugins = [
 	TableProperties,
 	TableToolbar,
 	TextPartLanguage,
-	TextTransformation,
+	// TextTransformation,
 	TodoList,
 	WordCount,
 	// Custom plugins
